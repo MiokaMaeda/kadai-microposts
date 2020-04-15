@@ -1,0 +1,7 @@
+<% if likes.any? %>
+  <ul class="list-unstyled">
+    <% likes.each do |like| %>
+    <% end %>
+  </ul>
+  <%= paginate likes %>
+<% end %>
